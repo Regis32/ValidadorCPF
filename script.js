@@ -20,11 +20,11 @@ function validaCPF() {
         const digito2 = calcularDigitoVerificador(cpf, 2);
         if (!digito1)
 
-            mostraResultado(`CPF Inválido - ${cpfFormatado}`, `black`);
+            mostraResultado(`CPF Inválido - ${cpfFormatado}`, `red`);
 
         else if (!digito2)
 
-            mostraResultado(`CPF Inválido - ${cpfFormatado}`, `black`);
+            mostraResultado(`CPF Inválido - ${cpfFormatado}`, `red`);
 
         else
 
